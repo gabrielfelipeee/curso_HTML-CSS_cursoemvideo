@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse; /* Junta as bordas das células (Padrão é: border-collapse: separate;)*/
+}
+
+tr.linha {
+    background-color: darkgrey;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center; /* Alinhamento horizontal*/
+    vertical-align: middle; /* Alinhamento vertical top, bottom ou middle (padrão).*/
+}
+td.numero {
+    text-align: right;
+}

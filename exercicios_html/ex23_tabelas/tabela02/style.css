@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232323;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    min-width: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative; /* Conf. par fixar o cabeçalho*/
+}
+
+caption {
+    font: bold 1.5em Arial, sans-serif;
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+}
+
+thead th {
+    position: sticky;/*fixar cabeçalho, sticky => colável */
+    top: -1px; /* Significa que vai colar no topo da página.*/
+    background-color: #232323;
+    border: 1px solid black;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+tbody tr:nth-child(even) {
+    background-color: darkgray;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+td.numero {
+    text-align: right;
+}
+td.porcentagem {
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead, tfoot {
+    color: white;
+}
+
+/*
+Efeito zebrado
+
+tbody tr:nth-child(odd) => odd = impar, ou seja, todos os tr (linhas) ímpares vão receber as configurações.
+
+outra forma: tbody tr:nth-child(2n-1)
+
+----------------------------
+com even (par): todos os tr (linhas) pares vão receber as configurações.
+
+outra forma: tbody tr:nth-child(2n)
+
+Obs: os valores númericos podem ser outros, ex:
+tbody tr:nth-child(5n)
+
+*/

@@ -1,0 +1,35 @@
+/*
+- border (borda) fica dentro do elemento
+- outline (traçado) fica fora do elemento
+-----------------------------------------------------------------------------
+                      
+
+
+                            Tipos de caixa
+                
+- box-level = pula para outra linha colocar a segunda caixa.
+ex: div (+ ex. na imagem)
+
+
+
+- inline-level = dar continuidade ao conteúdo (outra caixa) na mesma linha (não faz quebra de linha)
+ex: span (+ ex. na imagem)
+
+
+-----------------------------------------------------------------------------
+
+
+
+                            Diferença entre div e span
+
+div: ocupa a largura inteira do navegador, e faz quebra de linha.
+
+span: usa-se quando quero que o próximo elemento esteja do lado.
+
+
+
+
+
+
+Obs: user agent é o navegador que está exibindo o conteúdo do site
+*/

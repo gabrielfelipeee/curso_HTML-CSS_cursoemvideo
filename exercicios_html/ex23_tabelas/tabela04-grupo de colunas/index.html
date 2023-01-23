@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+
+<!--Fazer uma configuração em toda a coluna, sem precisar selecionar uma de cada vez.-->
+        <colgroup>
+            <col class="colNome">
+            <col class="colSexo">
+            <col class="colIdade" span="2">
+            <col class="colProfissao">
+        </colgroup>
+<!--Span -> Vai se aplicar a mesma config em duas colunas.-->  
+
+        <caption>Cadastro</caption>
+        <thead>
+            <tr id="titulos">
+                <th scope="col" id="nome">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gabriel</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Dev</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>35</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Jogador de futebol</td>
+            </tr>
+            <tr>
+                <td>Diego</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>50</td>
+                <td>Professora</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

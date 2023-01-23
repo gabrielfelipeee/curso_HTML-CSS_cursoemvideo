@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+    <style>
+        iframe#cursoemvideo {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando iframe</h1>
+    <p>
+        Acesse o site do
+        <iframe id="cursoemvideo" src="https://www.cursoemvideo.com/">
+            <a href="https://www.cursoemvideo.com/" target="_blank">cursoemvideo para aprender a programar</a>
+        </iframe> 
+        para aprender a progrmar.
+    </p>
+    <p>
+        O site do
+         <iframe src="https://google.com" frameborder="0">
+            <a href="https://google.com" target="_blank">Google</a>
+            <!--Só aparece se o navegador do usuário não for compatível com iframe-->
+         </iframe>
+        também é interessante.
+        <!-- Conexão recusada, pois alguns sites tem proteção para não serem exibidos em iframes-->
+    </p>
+    <p>
+        Repositório do 
+        <iframe src="https://gustavoguanabara.github.io/" frameborder="0">
+            no <a href="https://gustavoguanabara.github.io/" target="_blank">GitHub.</a>
+        </iframe>
+        no GitHub.
+    </p>
+</body>
+</html>
+<!--
+iframe: i -> inline, ou seja, frame inline
+
+tamanho padrão de um iframe: 300 x 150 px -> pode alterar no css ou por parâmetro, mas css é 'soberano'.
+-->

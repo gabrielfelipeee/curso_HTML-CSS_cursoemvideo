@@ -1,0 +1,22 @@
+ %
+ 
+ O valor x% significa que o tamanho da fonte será x% do tamanho da fonte do elemento PAI.
+
+ Ex: Se você tiver um elemento com a seguinte regra de estilo:
+
+font-size: 10%;
+
+E seu elemento PAI tiver uma fonte de tamanho 20px, então o tamanho da fonte do elemento será 2px (10% de 20px).
+
+--------------------------------------------------
+
+vw
+
+O valor vw significa que o tamanho da fonte será x% da largura da janela do navegador.
+
+Ex: Se você tiver um elemento com a seguinte regra de estilo:
+
+font-size: 10vw;
+
+E a largura da janela do navegador for de 1000 pixels, então o tamanho da fonte do elemento será 100 pixels (10% de 1000 pixels).
+

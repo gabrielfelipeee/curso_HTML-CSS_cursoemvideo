@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: #14fd7948;
+}
+
+h1 {
+    color: #002412;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+    border-radius: 10px;
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #7b803c;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: rgba(166, 255, 0, 0.329);
+    border-radius: 10px;
+}
+
+
+
+/*
+Para selecionar:
+
+id: usa-se o # (Usar o mesmo id somente uma vez em cada tag html. Para isso usa-se o class)
+class: usa-se o .
+
+*/

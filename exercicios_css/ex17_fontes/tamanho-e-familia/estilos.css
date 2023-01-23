@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+                             /*Tamanho de fontes*/
+/*
+Medidas absolutas: cm, mm, in, px (polegada), pt (ponto) e pc (paica).
+
+Medidas relativas: 
+em ( relativa a altura M)
+ex ( relativo a altura x)
+rem (relativo ao root)
+vw (% da largura da viewport "largura da tela")
+vh (% da altura da viewport "altura da tela")
+
+Obs: W3C recomenda o uso das medidas 'px' e 'em' para fontes.
+Guanabara recomenda usar 'em'
+
+16px geralmente é o tamanho padrão da fonte;
+16px geralmente = 1em;
+(em é sempre relativo ao tamanho natural da fonte (% do tamanho da fonte padrão).
+*/
+
+
+
+/*-----------------------------------------------------------*/
+                            /*Família de fontes*/
+
+/*Nome de fontes com duas palavras, colocar entre '' | Ex: font-family: 'Courier New'; */
+
+/*Fontes genéricas | Ex: font-family: serif; (Qualquer fonte com serifa)*/
+
+/*Safe combinations | Ex: font-family: Arial, Helvetica, sans-serif; (Vai usar a que ele encontrar no dispositivo. VAI FAZER O TESTE NA ORDEM DAS FONTES). Sempre terminar a safe combinatios com uma fonte GENÉRICA*/

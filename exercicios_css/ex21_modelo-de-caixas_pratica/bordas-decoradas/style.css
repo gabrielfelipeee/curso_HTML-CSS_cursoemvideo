@@ -1,0 +1,8 @@
+h1 {
+    border: 10px solid transparent;
+    border-image-source: url(borda.png);
+    border-image-slice: 25;              /* ou  border-image: url(borda.png) 25 repeat; */
+    border-image-repeat: repeat;
+
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+body {
+    background-image: url('../imagens/wallpaper002.jpg'); /*Pode colocar imagem da internet*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/*
+                            Imagem de fundo
+
+background-size: 100px 100px;
+
+=> Largura e altura da imagem
+
+-----------------------------------------
+background-repeat: repeat;
+
+Valores:
+
+- repeat (padrão) = repetir a imagem
+- no-repeat = não repeti a imagem
+- repeat-x = repeti no eixo x (horizontal), começamco do canto superior esquerdo.
+- repeat-y = repeti no eixo y (vertical), começamco do canto superior esquerdo.
+
+
+*/

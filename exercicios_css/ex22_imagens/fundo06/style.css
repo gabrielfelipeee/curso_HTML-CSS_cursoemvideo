@@ -1,0 +1,68 @@
+body {
+    height: 100vh;   /* % da altura do viewport */
+    background-color: black;
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;          
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* Shorthand
+
+        background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
+    
+    */
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+/*
+                            shorthand background
+background-color >
+background-image >
+background-position >
+background-repeat > 
+background-size >  Obs: Por enquanto não funciona, é melhor colocar ele separado.
+background-attachment   
+
+
+background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
+background-size: cover;
+
+*/
+
+/*
+                                background-size
+principais valores:
+
+auto => automático
+
+100% 100% de w e h (dependendo da imagem, vai ficar distorcida)
+
+contain => mostra toda a imagem sem corte
+
+cover => cobre a tela inteira, ele pode até cordar um pouco da imagem para se adaptar
+*/
+
+
+
+/*
+                                background-attachment (vínculo)
+
+valores:
+
+scroll => fundo vai rolar junto com o conteúdo (padrão)
+
+fixed => a imagem fica fixa
+
+*/
+

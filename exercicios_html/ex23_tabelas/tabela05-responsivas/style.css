@@ -1,0 +1,32 @@
+body {
+    background-color: #232323;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#containerTabela {
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+caption {
+    font: bold 2em Arial, sans-serif;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+/*
+overflow -> transbordar
+
+overflow -> Dois eixos x e y
+overflow-x -> eixo x
+overflow-y -> eixo y
+*/

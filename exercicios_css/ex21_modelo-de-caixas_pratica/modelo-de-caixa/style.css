@@ -1,0 +1,59 @@
+h1 { /* box-level */
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkslategray;
+    padding: 10px 20px;
+    margin: 20px 20px 40px 20px;
+    outline: 5px dashed red;
+}
+
+a { /* inline-level */
+    border: 10px solid red;
+    padding: 10px;
+}
+
+
+
+/*
+                                        shorthand (forma abreviada)
+
+
+    border-width: 10px;
+    border-style: solid;           =>   border: 10px solid darkslategray; (nessa ordem)
+    border-color: darkslategray;
+
+    ---------------------------------------------------
+
+                            Ordem: top right bottom left
+
+    padding-top: 10px;
+    padding-right: 10px;      => padding: 10px; 
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    Obs:  Se as quatro medidas forem iguais, basta colocar uma vez.
+
+    Se:   padding: 10px 20px; | significa: top e bottom = 10px | left e right 20px
+
+    ----------------------------------------------------
+
+                          Ordem: top right bottom left
+
+    margin-top: 20px;
+    margin-right: 20px;       =>     margin: 20px 20px 40px 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    Obs: margin: auto;  = centralizado
+
+    margin: 20px auto 40px auto; = centralizado orizontalente.
+
+    -----------------------------------------------------
+
+    outline-width: 5px;        =>   outline: 5px dashed red; (nessa ordem)
+    outline-style: dashed;
+    outline-color: red;
+
+    Obs: outline fica dentro da margem
+    */

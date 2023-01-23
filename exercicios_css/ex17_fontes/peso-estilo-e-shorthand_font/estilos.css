@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font: italic bolder 3em 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font: bold 2em 'Times New Roman';
+/* Posso elimilar algum valor, nesse caso o font-style*/
+}
+
+
+
+
+/*
+                                Shorthand font
+
+
+É o peso e os estilos da fonte na mesma linha.
+
+Ordem: font-style font-weight font-size, font-family;
+
+Ex: font: italic bolder 3em, sans-serif;
+
+É melhor usar isso:
+    font: italic bolder 3em 'Times New Roman', Times, serif;
+
+Em vez disso:
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+----------------------------------------------------------------
+
+                                Peso da fonte
+
+
+font-weight: ;
+valores: lighter | normal |bold | bolder.
+valores numéricos: de 100 a 900
+
+
+
+----------------------------------------------------------------
+                                Estilo de fontes
+
+                                
+font-style: ;
+valores: italic | normal
+
+text-decoration: underline; => texto sublinhado
+
+Obs: Para poder usar os estilos, as famílias de fontes devem possibilitar as configurações.
+Ex: algumas famílias não têm bold, itálico, sublinhado, etc.
+*/                                
+

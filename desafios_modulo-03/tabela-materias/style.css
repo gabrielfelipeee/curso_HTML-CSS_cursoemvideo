@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232323;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    color: white;
+    margin: 100px auto;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+.destaque {
+    background-color: rgb(87, 87, 87);
+}
+.thEtdAEsquerda {
+    text-align: left;
+}

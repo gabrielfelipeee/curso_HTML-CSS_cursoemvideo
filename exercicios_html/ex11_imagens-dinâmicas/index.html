@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTNL5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <!--img = é a imagem padrão que eu quero colocar || acima são colocados os 'source' na ordem decrescente-->
+
+<!--media = largura 'max' ou 'min' do aparelho || srcsets = mostra a imagem da configuração media-->
+
+<!--source = é utilizado para especificar múltiplos recursos de mídia de elementos <picture>, <audio> ou <video> em HTML5.-->
+
+<!-- picture = é um container usado para especificar múltiplos elementos <source> para um elemento específico <img> contido nele-->
+
+<!------------------------------------------------------------------------------>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/yummu.mp3" type="audio/mpeg">
+        <source src="midia/yummu.ogg" type="audio/ogg">
+        <source src="midia/yummu.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue não consegue reproduzir áudio <a href="midia/yummu.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+
+
+    <!-- Se o navegador não reproduzir o primeiro source (nesse caso, o mp3), o navegador vai tentar o segundo (ogg), e assim por diante-->
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+body {
+    height: 97vh;
+    background-color: black;
+    background-image: url('imagens/espaco.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+img#astronauta {
+    width: 100%;      /* Serve para se ajustar a telas menores*/
+    max-width: 500px; /* Serve para se ajustar a telas menores*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

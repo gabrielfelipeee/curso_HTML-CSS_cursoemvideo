@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    
+    <video width="560" poster="imagens/thumb.png" controls  loop>
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo. Baixe o vídeo clicando <a href="midia/meu-video.mp4" download="meu-video.mp4">aqui</a></p>
+    </video>
+    <!--loop = repetir o vídeo quando acabar-->
+
+    <!-- Obs. vídeos hospedados no próprio servidor gera um custo elevado de hospedagem para o seu cliente-->
+
+    <!-- Se o navegador não reproduzir o primeiro source (nesse caso, o m4v), o navegador vai tentar o segundo (mp4), e assim por diante. Caso não ser compatível com nenhum, irá aparecer o 'p' -->
+    <!----------------------------------------------------->
+
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Vídeos incorporados não vão consumir dados de hospedagem, assim diminuindo o custo.-->
+    <!--Código pego na opção de incorporação do youtube-->
+</body>
+</html>
