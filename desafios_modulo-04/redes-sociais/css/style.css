@@ -48,7 +48,7 @@ section#redesSociais img {
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.308);
-    box-sizing: border-box; /*A borda em hover vai fazer parte da img, e ela não vai movimentar*/
+    box-sizing: border-box; /* A borda em hover vai fazer parte da img, e ela não vai movimentar */
 }
 section#redesSociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.685);
