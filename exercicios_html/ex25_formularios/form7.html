@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Formulário</h1>
+
+    <form action="xxxxx.js" method="get" autocomplete="off">
+        <p>
+            <label for="est">Estado</label>
+            <select name="estado" id="est">
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup><!--selected -> Já vem selecionado-->
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <!--Usando datalist-->
+        <p>
+            <label for="prof">Profissão: </label>
+            <input type="tel" name="prof" id="prof" list="lstProf">
+            <datalist id="lstProf">
+                <option>Administrção</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+
+        <!--Texto livre-->
+        <p>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
+
+<!--Aqui também é importante usar post-->
