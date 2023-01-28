@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor" value="#00ff00">
+        </p> <!--value -> Vai ser a cor padrão-->
+
+        <p>
+            <label for="nivel">Nível de satisfação:</label>
+            <input type="range" name="nivel" id="nivel" min="1" max="5" value="5">
+        </p>
+
+        <p>
+            <label for="foto">Foto:</label>
+            <input type="file" src="foto" alt="foto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>  <!--Esse tipo de arquivo deve ser enviado através do método post-->
+</body>
+</html>
