@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <!--checked -> já vem marcado-->
+            <input type="radio" name="sexo" id="sxmas" checked>
+            <label for="sxmas">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="sxfem">
+            <label for="sxfem">Feminino</label>
+            <!--Mesmo nome no radio -> selecionar somente uma opção-->
+        </fieldset>
+
+        <fieldset><br>
+            <legend>Esportes favoritos</legend>
+
+            <div>
+                <input type="checkbox" name="esFut" id="esFut" checked>
+                <label for="esFut">Futebol</label><br>
+
+                <input type="checkbox" name="esBas" id="esBas">
+                <label for="esBas">Basquete</label><br>
+
+                <input type="checkbox" name="esFutsal" id="esFutsal">
+                <label for="esFutsal">Futsal</label><br>
+                
+                <input type="checkbox" name="esFutAreia" id="esFutAreia">
+                <label for="esFutAreia">Futebol de areia</label><br>
+
+                <input type="checkbox" name="esJud" id="esJud">
+                <label for="esJud">Judô</label>
+            </div>
+
+        </fieldset><br>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+</body>
+</html>
