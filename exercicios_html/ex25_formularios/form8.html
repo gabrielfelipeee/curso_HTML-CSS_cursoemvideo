@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Formulário</h1>
+
+    <form action="xxxxx.js" method="get" autocomplete="off">
+        <p>
+            <label for="num">Número 1:</label>
+            <input type="number" name="num" id="num" min="0" max="50" required oninput="soma.innerHTML = Number(num.value) + Number(num2.value)">
+        </p>
+
+        <p>
+            <label for="num2">Número 2:</label>
+            <input type="number" name="num2" id="num2" min="0" max="50" required oninput="soma.innerHTML = Number(num.value) + Number(num2.value)">
+        </p>
+
+        <p>
+            <label for="soma">Número 1:</label>
+            <output id="soma">0</output>
+        </p>
+    </form>
+</body>
+</html>
+
+<!--output só mostra na tela, não envia o resultado no formulário-->

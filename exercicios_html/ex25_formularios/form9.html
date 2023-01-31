@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Formulário</h1>
+
+    <form action="xxxxx.js" method="get" autocomplete="off">
+
+        <p>
+            <label for="num">Número:</label>
+            <input type="range" name="num" id="num" min="1" max="10" value="5" oninput="valor.innerHTML = Number(num.value)">
+            <output id="valor">5</output>
+        </p>
+    </form>
+</body>
+</html>
