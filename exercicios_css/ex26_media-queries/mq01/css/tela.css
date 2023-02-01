@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #232323;
+    color: white;
+}
+
+h1#media {
+    margin-bottom: 30px;
+    text-align: center;
+    color: cyan;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: darkgrey;
+    margin-bottom: 30px;
+}
+
+menu li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #232323;
+    border: 5px solid darkgrey;
+    border-radius: 10px;
+}
+menu li > a {
+    color: white;
+    text-decoration: none;
+}
+menu li > a:hover {
+    text-decoration: underline;
+}
+article {
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+/* Estilo para telas */
