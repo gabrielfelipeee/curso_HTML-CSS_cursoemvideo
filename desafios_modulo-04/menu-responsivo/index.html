@@ -7,14 +7,15 @@
     <title>Menu responsivo - Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/> <!--símbolo do menu -> GoogleAPIS-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Menu Responsivo</h1>
         <span id="menu-burguer" class="material-symbols-outlined" onclick="expandirMenu()">menu</span>
         <menu id="menu">
             <ul>
-                <li><a href="#">Mundo</a></li>
+                <li id="menu-mundo"><a href="#">Mundo</a></li>
                 <li><a href="#">Tecnologia</a></li>
                 <li><a href="#">Política</a></li>
                 <li><a href="#">Economia</a></li>

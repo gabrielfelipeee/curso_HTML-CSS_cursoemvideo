@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@media print {  /* impressoras */
+    header #menu-burguer {
+        display: none;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    header > h1 {
+        color: black;
+    }
+
+    main {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) { /* Tablets e desktops*/
+    header #menu-burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu ul > li > a {
+        border-radius: 5px;
+    }
+    #menu-mundo > a {
+        margin-left: 5px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) { /* tv e telas grandes */
+    header #menu-burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu ul > li > a {
+        border-radius: 5px;
+    }
+    #menu-mundo > a {
+        margin-left: 5px;
+    }
+
+    main {
+        width: 800px;
+    }
+}
