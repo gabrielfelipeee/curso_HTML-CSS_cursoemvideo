@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Com o modelo mobile first */
+
+
+
+body {
+    background-color: #030f09;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #00292c;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+header #menu-burguer {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #232323;
+    color: white;
+}
+
+header #menu-burguer:hover {
+    background-color: #1d494c;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #39686b;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid #00292c;
+}
+
+menu > ul > li > a:hover {
+    background-color: #1d494c; 
+}
+
+main {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main > article > h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5;
+}
