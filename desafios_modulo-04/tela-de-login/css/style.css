@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #232323 url(../img/back-celular.jpg) no-repeat top left /cover;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main div#imagem {
+    background: #232323 url(../img/login.jpg) no-repeat top left /contain;
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+section {
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+}
+
+div#text h1 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+div#text p {
+    font-weight: 400;
+    text-align: left;
+}
+
+form div#email, div#senha {
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+form .material-symbols-outlined {
+    font-size: 1.8em;
+    color: white;
+    padding: 5px 5px 0px 0px;
+}
+
+div#email > #input-email, #input-senha {
+    font-weight: 400;
+    font-size: 1em;
+    width: 210px;
+    padding: 5px;
+    border-radius: 5px;
+    transform: translateY(-8px);
+    border: none;
+}
+
+section #btn-entrar {
+    margin: 10px 0px;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section #btn-entrar:hover {
+    background-color: #290d44;
+}
+
+section #btn-esqueci-senha {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: white;
+    color: #290d44;
+    border: 1px solid #290d44;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section #btn-esqueci-senha:hover {
+    background-color: #9b34fc;
+}
