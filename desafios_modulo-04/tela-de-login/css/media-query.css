@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*tablets*/
+    body {
+        background-image: url(../img/back-desktop.jpg);
+    }
+    
+    main {
+        width: 80%;
+    }
+
+    section div#imagem {
+        float: left;
+        width: 35%;
+        height: 340px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    section #formulario {
+        float: right;
+        width: 65%;
+        height: 340px;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* desktops*/
+    body {
+        background-image: url(../img/back-desktop.jpg);
+    }
+    main {
+        width: 80%;
+    }
+
+    section div#imagem {
+        float: right;
+        width: 40%;
+        height: 340px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    section #formulario {
+        float: left;
+        width: 60%;
+        height: 340px;
+        border-radius: 20px 0px 0px 20px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) { /* tv e telas maiores*/
+    body {
+        background-image: url(../img/back-desktop.jpg);
+    }
+    main {
+        width: 800px;
+    }
+
+    section div#imagem {
+        float: right;
+        width: 50%;
+        height: 340px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    section #formulario {
+        float: left;
+        width: 50%;
+        height: 340px;
+        border-radius: 20px 0px 0px 20px;
+    }
+}

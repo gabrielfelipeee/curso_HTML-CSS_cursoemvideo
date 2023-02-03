@@ -6,8 +6,11 @@
     box-sizing: border-box;
 }
 
+/* Versão mobile */
+
 body {
-    background: #232323 url(../img/back-celular.jpg) no-repeat top left /cover;
+    height: 100vh;
+    background: #232323 url(../img/back-phone.jpg) no-repeat top left /cover;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -15,21 +18,28 @@ main {
     margin: auto;
     text-align: center;
     width: 300px;
+    box-shadow: 1px 2px 2px black;
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease; 
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main div#imagem {
-    background: #232323 url(../img/login.jpg) no-repeat top left /contain;
+section div#imagem {
+    display: block;
+    background: #232323 url(../img/login.jpg) no-repeat top left /cover;
     width: 100%;
     height: 250px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-section {
+section #formulario {
+    display: block;
     background-color: white;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -56,20 +66,21 @@ form div#email, div#senha {
 form .material-symbols-outlined {
     font-size: 1.8em;
     color: white;
-    padding: 5px 5px 0px 0px;
+    padding-top: 5px;
+    width: 10%;
 }
 
 div#email > #input-email, #input-senha {
     font-weight: 400;
     font-size: 1em;
-    width: 210px;
+    width: 85%;
     padding: 5px;
     border-radius: 5px;
-    transform: translateY(-8px);
     border: none;
+    transform: translateY(-8px);
 }
 
-section #btn-entrar {
+#formulario #btn-entrar {
     margin: 10px 0px;
     width: 100%;
     height: 40px;
@@ -82,11 +93,11 @@ section #btn-entrar {
     border-radius: 5px;
     cursor: pointer;
 }
-section #btn-entrar:hover {
+#formulario #btn-entrar:hover {
     background-color: #290d44;
 }
 
-section #btn-esqueci-senha {
+#formulario #btn-esqueci-senha {
     width: 100%;
     height: 40px;
     font-weight: bold;
@@ -98,6 +109,6 @@ section #btn-esqueci-senha {
     border-radius: 5px;
     cursor: pointer;
 }
-section #btn-esqueci-senha:hover {
+#formulario #btn-esqueci-senha:hover {
     background-color: #9b34fc;
 }
